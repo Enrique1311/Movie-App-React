@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.all {
+  background: rgb(44, 43, 43);
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  text-shadow: 0 0 10px rgb(253, 253, 253);
+  padding: px;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  background: rgb(36, 36, 36, 0.7);
+  position: fixed;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  padding: 5px;
+  top: 0;
+  z-index: 30;
+}
+
+.main {
+  margin-top: 40px;
+
+}
+
+@media (max-width: 560px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .main {
+    margin-top: 100px;
+  }
+}
+
+
+
