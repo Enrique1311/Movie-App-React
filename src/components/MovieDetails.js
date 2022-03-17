@@ -28,7 +28,7 @@ const MovieDetails = () => {
       <img className={`${styles.col} ${styles.movieImage}`} src={imageUrl} alt={movie.title}/>
       <div className={`${styles.col} ${styles.movieDetails}`}>
         <p className={styles.firstItem}>
-          <strong>Title:</strong> {movie.title}
+          {movie.title}
         </p>
         <p>
           <strong>Genres:</strong>{" "}

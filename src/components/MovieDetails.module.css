@@ -1,12 +1,12 @@
 .detailsContainer {
-    padding-top: 10px;
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .col {
-    max-width: 320px;
+    max-width: 400px;
     min-width: 230px;
     height: auto;
     margin: 1rem;
@@ -23,11 +23,23 @@
 }
 
 .firstItem {
-    margin-top: 0;
+    margin-top: 0; 
+    font-size: 2rem;
+    color: rgb(7, 245, 237);
 }
 
 .movieDetails p {
     margin-bottom: 1rem;
     text-align: justify;
+}
+
+.movieDetails strong {
+    color: rgb(23, 137, 172);
+}
+
+@media (max-width: 560px) {
+    .detailsContainer {
+        padding-top: 50px;;
+    }
 }
 
