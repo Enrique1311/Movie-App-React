@@ -34,7 +34,7 @@ const Movies = ({search}) => {
       hasMore={hasMore} 
       next={() => setPage((prevPage) => prevPage + 1)} 
       loader={<Loading/>}
-    >
+    >     
       <div>
         <ul className={styles.movies}>
           {movies.map((movie) => (
@@ -42,8 +42,7 @@ const Movies = ({search}) => {
           ))}
         </ul>
       </div>
-    </InfiniteScroll>
-    
+    </InfiniteScroll>   
   );
 }
 

@@ -1,7 +1,10 @@
 .notFound {
+    width: 100%;
     display: flex;
     justify-content: center;
     font-size: 2rem;
-    color: rgb(255, 255, 255);
-    margin: 40px;
+    color: rgb(126, 124, 124);
+    text-align: center;
+    margin-top: 140px;
+    position: absolute;
 }
